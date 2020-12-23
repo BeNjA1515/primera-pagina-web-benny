@@ -1,0 +1,99 @@
+header{
+    background-color: red;/*Color de fondo*/
+    color: rgb(17, 17, 17);/*color del texto*/
+}
+#pie-de-pagina{
+    background-color: #2d3436;/*Color de fondo*/
+    color: white;/*color del texto*/
+    clear: both;/*es para que aunque las secciones floten se queden dentro del html*/
+    padding: 20px;
+
+}
+h1{
+    font-size: 20px;/*pixeles de la letra*/
+    font-family:sans-serif;/*tipo de letra*/
+    font-weight: bolder;/*asi se define el peso de la letra*/
+}
+h2{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+h3{
+    font: bold 12px sans-serif;
+}
+header, section, footer, aside, nav,article{
+    display: block;
+    /*border: 1px solid black;/*esto es para poner bordes*/
+}
+.cabecera{
+    padding: 20px;
+    border: 1px solid #999999;
+    background:#FFFBB9 ;
+}
+.cabecera h1{
+    text-align: left;
+}
+body{
+    text-align: center;
+   border: 1px solid black;
+   width: 960px;
+   margin: auto;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+.agrupar{
+   
+    width: 960px;/*esto es para achicar el ancho*/
+    margin:  auto; /*esto es para que el margen se centre automapticamente*/
+    
+    /*padding: 15px;/*este es el espacio ente el texto y el margen*/
+} 
+.menu{
+    text-align: left;
+    background: #CCC;
+    padding: 5px 15px;
+
+}
+.menu li{
+    padding: 15px;
+    font: bold 14px verdana;
+    display: inline-block;
+    list-style: none;
+    
+}
+.seccion{
+    width: 600px;
+    margin: 20px;
+    
+    float: left;
+}
+article{
+    background: #fffbcc;
+    margin-bottom: 15px;
+    border: 1px solid #999;
+    padding: 20px;
+    
+}
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+time{
+    color: #999;
+}
+.columna{
+    width: 300px;
+    
+    float: left;/*esto es para que flote*/
+    margin-top: 10px;
+}
+.columna blockquote {
+    padding: 40px;
+    background: #FFFBB9;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    
+}
+    
+    
